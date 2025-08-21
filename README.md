@@ -32,6 +32,19 @@ A Chrome extension that automatically searches for coupon codes for the current 
 3. Click "Create API Key"
 4. Copy the key and paste it into the extension
 
+## Cost Information
+
+**⚠️ Important: There are costs associated with using the Google Gemini API.**
+
+- Google Gemini API usage is **not free** after the initial free tier limits
+- Each search request consumes API tokens based on the complexity of the search
+- Monitor your usage at https://aistudio.google.com/ to track costs
+- Consider setting up billing alerts and quotas in Google Cloud Console
+- Free tier typically includes a limited number of requests per month
+- For current pricing details, visit: https://ai.google.dev/pricing
+
+**Recommendation:** Create a separate API key specifically for this extension and set usage limits to control costs.
+
 ## Files Structure
 
 - `manifest.json` - Extension configuration
